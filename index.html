@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Document</title>
+    <link rel="stylesheet" href="main.css">
+    <script src="xlsx.full.min.js"></script>
+
+</head>
+
+<body>
+
+
+    <input type="text" placeholder="username" style="margin-bottom: 10px;" id="username">
+
+    <button type="button" id="Check">Check</button>
+
+    <div class="info-text">Followers <span id="Followers">0</span></div>
+
+    <div class="info-text">Followings <span id="Followings">0</span></div>
+
+    <div class="info-text">url: <a href="" target="_blank" id="url"></a></div>
+
+
+    <h6 style="margin: 30px 0px;">followers List</h6>
+
+    <button type="button" id="export_followers">Export Followers</button>
+    <button type="button" id="export_followings">Export Followings</button>
+
+    <div>process <span id="process_percentage"></span>%</div>
+
+
+    <script type="module" src="popup.js"></script>
+</body>
+
+</html>
